@@ -1,24 +1,24 @@
 class BeadsWeb < Formula
   desc "Visual Kanban board and multi-project dashboard for beads task tracking"
   homepage "https://github.com/weselow/beads-web"
-  version "0.12.3"
+  version "0.12.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/weselow/beads-web/releases/download/v0.12.3/beads-web-darwin-arm64"
-      sha256 "9d63d2bcd9ad5a30b07620c8a044ce9b536e0fdaa51fa583034546de594e7b87"
+      url "https://github.com/weselow/beads-web/releases/download/v0.12.4/beads-web-darwin-arm64"
+      sha256 "094f195d0dd6f99f488f620de4dca5cdc3bbd9e7b52ce1bdb6c66a17e6b03deb"
     end
     on_intel do
-      url "https://github.com/weselow/beads-web/releases/download/v0.12.3/beads-web-darwin-x64"
-      sha256 "d315bc40b2194eb07135482bab8e6e1a2d87bd57265a2de22c97b251477aa0d2"
+      url "https://github.com/weselow/beads-web/releases/download/v0.12.4/beads-web-darwin-x64"
+      sha256 "ec55297f1075ed547798319018a8226ac7e5f88633477dbf1c4ea857d275065c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/weselow/beads-web/releases/download/v0.12.3/beads-web-linux-x64"
-      sha256 "e91d335845843b44d64971061421b216e574f476cdbf3c22858bda197c125712"
+      url "https://github.com/weselow/beads-web/releases/download/v0.12.4/beads-web-linux-x64"
+      sha256 "570975e8692fe580d919b5c52e77177b7cc5278abb62360f92472ebb3c7f8c82"
     end
   end
 
